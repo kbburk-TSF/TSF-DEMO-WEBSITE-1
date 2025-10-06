@@ -1,0 +1,62 @@
+.ariaComboBox:global(.__wab_instance) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: var(--token-5hZuJKY9rBJj);
+  min-width: 0;
+}
+.ariaComboBox[data-disabled]:global(.__wab_instance) {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.freeBox {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.ariaInput:global(.__wab_instance) {
+  box-shadow: inset 0px 0px 0px 1px var(--token-jlGk0c1Reylh);
+  width: 100%;
+  font-size: var(--token-fM5uz1jnVrvF);
+  line-height: var(--token-n-xApyDHa_t0);
+  outline-style: none;
+  min-width: 0;
+  border-radius: var(--token-viSvChhAClGL);
+  padding: var(--token-viSvChhAClGL) var(--token-xVX_getA9aa2)
+    var(--token-viSvChhAClGL) var(--token-5qkMFX8_8lWv);
+  border-style: none;
+}
+.ariaButton:global(.__wab_instance) {
+  box-sizing: border-box;
+  cursor: pointer;
+  object-fit: cover;
+  background: none;
+  position: absolute;
+  right: 0;
+  width: var(--token-xVX_getA9aa2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--token-xVX_getA9aa2);
+  flex-shrink: 0;
+  border-radius: var(--token-viSvChhAClGL);
+  border: 1px none black;
+}
+.svg {
+  width: var(--token-RjbMi9uYERpz);
+  height: var(--token-RjbMi9uYERpz);
+}
+.description:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.text__shUBk {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
